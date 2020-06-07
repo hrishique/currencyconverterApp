@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:weightSum="4"
+    android:background="#4C4B4B"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/amount"
+        android:background="@android:color/white"
+        android:layout_margin="10dp"
+        android:inputType="numberDecimal"
+        android:textColorHint="#4C4B4B"
+        android:layout_weight="0.6"
+        android:gravity="center|left"
+        android:hint="Enter Amount In INR"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+
+    <LinearLayout
+        android:layout_weight="0.4"
+        android:weightSum="1"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="0dp">
+        <TextView
+            android:id="@+id/result"
+            android:background="@android:color/white"
+            android:textColorHint="#4C4B4B"
+            android:layout_margin="10dp"
+            android:hint="calculated amount"
+            android:layout_weight="0.7"
+            android:gravity="right|center"
+            android:textSize="20sp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <Button
+            android:id="@+id/clear"
+            android:layout_margin="5dp"
+            android:textColorHint="#4C4B4B"
+            android:layout_weight="0.3"
+            android:hint="clear"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:weightSum="3"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/dollar"
+            android:layout_margin="5dp"
+            android:textColorHint="#4C4B4B"
+            android:layout_weight="1"
+            android:hint="dollar"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <Button
+            android:id="@+id/euro"
+            android:layout_margin="5dp"
+            android:textColorHint="#4C4B4B"
+            android:layout_weight="1"
+            android:hint="Euro"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <Button
+            android:id="@+id/pound"
+            android:textColorHint="#4C4B4B"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:hint="Pounds"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:weightSum="3"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/aus"
+            android:layout_margin="5dp"
+            android:textColorHint="#4C4B4B"
+            android:layout_weight="1"
+            android:hint="Aus"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <Button
+            android:id="@+id/canada"
+            android:layout_margin="5dp"
+            android:textColorHint="#4C4B4B"
+            android:layout_weight="1"
+            android:hint="Canada"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <Button
+            android:id="@+id/yen"
+            android:layout_margin="5dp"
+            android:textColorHint="#4C4B4B"
+            android:layout_weight="1"
+            android:hint="Yen"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:weightSum="3"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/dinar"
+            android:layout_margin="5dp"
+            android:textColorHint="#4C4B4B"
+            android:layout_weight="1"
+            android:hint="Dinar"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <Button
+            android:id="@+id/bitty"
+            android:layout_margin="5dp"
+            android:textColorHint="#4C4B4B"
+            android:layout_weight="1"
+            android:hint="Bitty"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <Button
+            android:id="@+id/rubel"
+            android:textSize="30dp"
+            android:layout_margin="5dp"
+            android:textColorHint="#4C4B4B"
+            android:layout_weight="1"
+            android:hint="Rubel"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
